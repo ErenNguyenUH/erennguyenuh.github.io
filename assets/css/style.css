@@ -759,6 +759,21 @@ section {
   border: 2px solid #d7ba7d;
 }
 
+.resume .resume-download {
+  
+}
+
+.resume button {
+  color: #d7ba7d;
+  font-size: 40px;
+  background-color: transparent;
+  border:0;
+}
+
+.resume button:hover {
+  color: #e7b444;
+}
+
 /*--------------------------------------------------------------
 # My Portfolio
 --------------------------------------------------------------*/
@@ -852,10 +867,11 @@ section {
 # Contact Me
 --------------------------------------------------------------*/
 .contact .container {
-  width: 60%;
+  max-width: 800px;
 }
 .contact .info-box {
   background-color:#2f2f2f;
+  min-width: 250px;
   color: #d4d4d4;
   text-align: center;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
@@ -868,7 +884,7 @@ section {
   color: #9e6e06;
   border-radius: 50%;
   padding: 15px;
-  background: #d4d4d4;
+  background: #e6e6e6;
 }
 
 .contact .info-box a:hover i.bx {
@@ -912,95 +928,6 @@ section {
   color: #fff;
   border-color: #ffb727;
   background: #ffb727;
-}
-
-.contact .php-email-form {
-  background-color:#2f2f2f;
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
-  padding: 27px;
-}
-
-.contact .php-email-form .validate {
-  display: none;
-  color: red;
-  margin: 0 0 15px 0;
-  font-weight: 400;
-  font-size: 13px;
-}
-
-.contact .php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: left;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact .php-email-form .error-message br+br {
-  margin-top: 25px;
-}
-
-.contact .php-email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #18d26e;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact .php-email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-}
-
-.contact .php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
-  -webkit-animation: animate-loading 1s linear infinite;
-  animation: animate-loading 1s linear infinite;
-}
-
-.contact .php-email-form input,
-.contact .php-email-form textarea {
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 14px;
-}
-
-.contact .php-email-form input::focus,
-.contact .php-email-form textarea::focus {
-  background-color: #ffb727;
-}
-
-.contact .php-email-form input {
-  padding: 10px 15px;
-}
-
-.contact .php-email-form textarea {
-  padding: 12px 15px;
-}
-
-.contact .php-email-form button[type=submit] {
-  background: #ffb727;
-  border: 0;
-  padding: 10px 24px;
-  color: #fff;
-  transition: 0.4s;
-  border-radius: 5px;
-}
-
-.contact .php-email-form button[type=submit]:hover {
-  background: #ffc85a;
 }
 
 @-webkit-keyframes animate-loading {
