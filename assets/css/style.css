@@ -781,8 +781,9 @@ section {
 }
 
 .resume .resume-logo {
-  max-width: 80px;
-  height: 80px;
+  max-width: 70px;
+  max-height: 70px;
+  margin-bottom: 10px;
 }
 
 
