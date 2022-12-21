@@ -3,7 +3,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #d4d4d4;
+  color: #dddddd;
   background-color: #1f1f1f;
 }
 
@@ -257,7 +257,7 @@ h6 {
   bottom: 15px;
   padding: 10px 0;
   border-radius: 10px;
-  background-color: #d4d4d4;
+  background-color: #dddddd;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -552,7 +552,7 @@ section {
 
 
 .about{
-  color: #d4d4d4;
+  color: #dddddd;
   background-color: #1f1f1f;
 }
 
@@ -562,18 +562,18 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #d4d4d4;
+  color: #dddddd;
   text-transform: uppercase;
 }
 
 .about .content ul {
-  color: #d4d4d4;
+  color: #dddddd;
   list-style: none;
   padding: 0;
 }
 
 .about .content ul li {
-  color: #d4d4d4;
+  color: #dddddd;
   margin-bottom: 20px;
   display: flex;
   align-items: center;
@@ -612,7 +612,7 @@ section {
   line-height: 30px;
   display: block;
   font-weight: 700;
-  color: #d4d4d4;
+  color: #dddddd;
   margin-left: 50px;
 }
 
@@ -680,7 +680,7 @@ section {
 }
 
 .about .skills-content .progress-bar-wrap {
-  background: #d4d4d4;
+  background: #dddddd;
 }
 
 .about .skills-content .progress-bar {
@@ -717,14 +717,20 @@ section {
   margin-bottom: 10px;
 }
 
+.resume .resume-item .name {
+  font-size: 16px;
+  font-weight: 700;
+  color: #d7ba7d;
+  line-height: 18px;
+}
+
 .resume .resume-item h5 {
   font-size: 16px;
   background: #363636;
-  padding: 5px 15px;
+  padding: 5px 10px;
   display: inline-block;
   font-weight: 600;
   margin-bottom: 0px;
-  
 }
 
 .resume .resume-item .title {
@@ -755,7 +761,7 @@ section {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #d4d4d4;
+  background: #dddddd;
   border: 2px solid #d7ba7d;
 }
 
@@ -774,6 +780,12 @@ section {
   color: #e7b444;
 }
 
+.resume .resume-logo {
+  max-width: 80px;
+  height: 80px;
+}
+
+
 /*--------------------------------------------------------------
 # My Portfolio
 --------------------------------------------------------------*/
@@ -791,9 +803,9 @@ section {
   line-height: 1;
   padding: 7px 10px;
   text-transform: uppercase;
-  color: #d4d4d4;
+  color: #dddddd;
   transition: all 0.3s ease-in-out;
-  border: 2px solid #d4d4d4;
+  border: 2px solid #dddddd;
 }
 
 .portfolio #portfolio-flters li:hover,
@@ -872,7 +884,7 @@ section {
 .contact .info-box {
   background-color:#2f2f2f;
   min-width: 250px;
-  color: #d4d4d4;
+  color: #dddddd;
   text-align: center;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
   padding: 20px 0 30px 0;
@@ -955,7 +967,7 @@ section {
 --------------------------------------------------------------*/
 
 #footer {
-  color: #d4d4d4;
+  color: #dddddd;
   font-size: 14px;
   text-align: center;
   padding: 10px 0;
